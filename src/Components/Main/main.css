@@ -1,0 +1,205 @@
+.main {
+    width: 100%;
+    left: 0;
+}
+
+.main_container {
+    max-width: 1440px;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main_part1 {
+    width: 423px;
+    height: 625px;
+    border-radius: 10px;
+    border: 0.5px solid #878787;
+    background-color: #fff;
+    box-shadow: 0px 4px 64px 0px rgba(0, 0, 0, 0.05);
+    padding: 36px 47px 40px 35px;
+    margin-top: 53px;
+}
+
+.main_part2 {
+    width: 827px;
+    height: 650px;
+    margin-top: 66px;
+}
+
+.main_part1-title {
+    color: inherit;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: Poppins;
+    width: 132px;
+    height: 38px;
+    margin: 0;
+}
+
+.main_part1-text {
+    color: inherit;
+    font-size: 31px;
+    font-weight: 500;
+    font-family: Poppins;
+    width: 142px;
+    height: 47px;
+    margin: 0;
+    margin-top: 29px;
+}
+
+.main_part1-text2 {
+    color: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Poppins;
+    width: 260px;
+    height: 24px;
+    margin: 0;
+}
+
+.main_part1-signin {
+    width: 423px;
+    height: 358px;
+    margin-top: 48px;
+}
+
+.main-part1-name {
+    width: 423px;
+    height: 92px;
+    
+}
+
+.main_part1-username {
+    width: 390px;
+    height: 24px;
+    
+}
+
+.main_part1-entername {
+    width: 148px;
+    height: 21px;
+    border-radius: 6px;
+    border: 0.6px solid #282828;
+    background: #fff;
+    padding: 19px 246px 19px 27px;
+    margin-top: 9px;
+}
+
+.main-part1-pass {
+    width: 423px;
+    height: 92px;
+    margin-top: 38px;
+    color: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Poppins;
+}
+
+.main_part1-userpass {
+    width: 390px;
+    height: 24px;
+    
+}
+
+.main_part1-enterpass {
+    width: 148px;
+    height: 21px;
+    border-radius: 6px;
+    border: 0.6px solid #282828;
+    background: #fff;
+    padding: 19px 246px 19px 27px;
+    margin-top: 9px;
+}
+
+.main_part1-check {
+    display: flex;
+    flex-direction: row;
+    width: 423px;
+    height: 18px;
+    align-items:center;
+    text-align: center;
+    margin-top: 23px;
+    justify-content: space-between;
+}
+
+
+
+.main-part1-checkicon {
+    
+    width: 15px;
+    height: 15px;
+    margin: 0;
+}
+
+.main_part1-check-text {
+    display: inline-block;
+    width: 90px;
+    height: 18px;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: Poppins;
+    margin-left: 10px;
+    text-align: start;
+}
+
+.main_part1-forgotpass {
+    cursor: pointer;
+    width: 108px;
+    height: 18px;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: Poppins;
+    text-decoration: none;
+    color: #4D4D4D;
+    text-align: end;
+    
+}
+
+.main_part1-login {
+    width: 423px;
+    height: 57px;
+    background: #000;
+    border-radius: 6px;
+    margin-top: 38px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0;
+    text-align: center;
+}
+
+.main_part1-register {
+    width: 269px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 56px;
+}
+
+.main_part1-register a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.main_part1-registertext {
+    color: #7D7D7D;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: Poppins;
+    font-style: normal;
+}
+
+.main_part1-registertext2 {
+    color: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Poppins;
+    font-style: normal;
+}
