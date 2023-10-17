@@ -1,7 +1,22 @@
+import { useState } from 'react';
+
 import './main.css';
 import team_discussing from './../../img/team_discussing.png'
 
 const Main = () => {
+    const [username, setUsername] = useState('Enter your user name');
+
+    const handleChangeUsername = event => {
+        setUsername(event.target.value);
+    };
+    
+    const [userpass, setUserpass] = useState('Enter your Password');
+
+    const handleChangeUserpass = event => {
+        setUserpass(event.target.value); 
+    };
+    
+
     return (
         <div className='main'>
             <div className='main_container'>
@@ -15,13 +30,23 @@ const Main = () => {
                         <form action='#' >
                             <div className='main-part1-name'>
                                 <label htmlFor="" className='main_part1-username'>User name</label><br />
-                                <input type="text" name="username" id="" value="Enter your user name" className='main_part1-entername'/>
+                                <input type="text" 
+                                    name="username" 
+                                    id="username" 
+                                    value={username} 
+                                    className='main_part1-entername'
+                                    onChange={handleChangeUsername}/>
                             </div>
                         
                         
                             <div className='main-part1-pass'>
                                 <label htmlFor="" className='main_part1-userpass'>Password</label><br />
-                                <input type="password" name="userpass" id="" value="Enter your Password" className='main_part1-enterpass'/>
+                                <input type="password" 
+                                    name="userpass" 
+                                    id="userpass" 
+                                    value={userpass} 
+                                    className='main_part1-enterpass'
+                                    onChange={handleChangeUserpass}/>
                             </div>
                         
                             <div className='main_part1-check'>
